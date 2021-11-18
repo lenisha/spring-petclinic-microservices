@@ -2,7 +2,7 @@ name: Deploy to Azure Spring Cloud with Key Vault
 on: [push]
 
 env:
-  AZURE_SUBSCRIPTION: f869415f-5cff-46a3-b728-20659d14d62d #customize
+  AZURE_SUBSCRIPTION: f869415f-5cff-46a3-b728-20659d14d62d #customize/move to secrets
   SPRING_CLOUD_SERVICE: springkv-eneros #customize
   KEYVAULT: spring-cloud-eneros #customize
   # ==== APPS ====:
